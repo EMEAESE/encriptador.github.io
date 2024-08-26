@@ -1,0 +1,93 @@
+*{
+    background: #f3f5fc;
+    font-family: 'Inter', sans-serif; 
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+}
+.LogoArriba{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+
+}
+.alerta{
+    color: #333333; 
+    font-size: 18px;
+    margin-bottom: 100px;
+    position: absolute;
+ }
+.Text-Area{
+    border: none;
+    color: #333333; 
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder{color: #333333;}
+.Text-Area:focus{
+    outline: none;
+}
+.Text-Area2{
+    background: #f3f5fc;
+    background-image: url(Muñeco.png);
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #333333; 
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position:fixed;
+}
+.Text-Area2:focus{
+    outline: none;
+}
+.BotonesI-S{
+      display: block;
+      margin-top: 18px;
+      margin: -50px;
+
+}
+.Btn-desc{
+    
+    background-color: #6C757D; /* Gris oscuro */
+    border: 1px solid #6C757D;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 70px;
+    width: 340px;
+}
+.Btn-enc{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 70px;
+    width: 340px;
+}
+.Copiar{
+    border: 1px solid #28A745; 
+    border-radius: 24px;
+    color: #28a745;
+    cursor:pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 700spx;
+    position: absolute;
+    width: 336px;
+
+}
+
+button:hover{
+    background-color: green;
+}
